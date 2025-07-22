@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aishwarya Bagal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                <img src="assets/portfolio-icon.jpg" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    
+                </ul>
+            </nav>
+
+            <div class="htext">
+                <h4>Welcome to My Portfolio</h4>
+                <h1>Hi, I'm <span> Aishwarya </span>Bagal </h1>
+                 <p>Fullstack Java Developer</p>
+           
+            </div>
+        </div>
+
+    </div>
+
+    <!--   About section-->
+
+    <div id="about">
+
+        <div class="container">
+             <div class="main">
+                <div class="half1">
+                   <img src="assets/myimg.png">
+                </div>
+                <div class="half2">
+                    <h2>About Me</h2>
+                    <p>
+                    Hi! I'm Aishwarya, a passionate <strong>Full Stack Java Developer</strong> with a focus on building end-to-end web applications.
+                    I specialize in backend development using <strong>Core Java, JDBC, Servlets, JSP, and Spring Boot</strong>, and I create interactive user interfaces using <strong>HTML, CSS, JavaScript, and React</strong>.
+                    </p>
+                    <p>
+                    I enjoy designing scalable, secure, and responsive applications that solve real-world problems. 
+                    With experience in working on both frontend and backend, I ensure smooth integration between user experience and server logic.
+                    </p>
+                    <p>
+                    I’m always learning and improving my skills, and I love taking on new challenges in software development.
+                    </p>
+                </div>
+             </div>
+
+        </div>
+    </div>
+
+    <!--  Projects-->
+      <div id="project">
+          <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="assets/project1.png" alt="">
+                    <div class="layer">
+                        <h3>Disaster Relief Management System</h3>
+                        <p>A disaster relief management system coordinates planning, response, and recovery efforts to mitigate disaster impact.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="assets/project2.png" alt="">
+                    <div class="layer">
+                        <h3>Library Management System</h3>
+                        <p>A library management system is a software application that automates and streamlines core library tasks like cataloging, circulation, and user management.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="assets/project3.png" alt="">
+                    <div class="layer">
+                        <h3>Daily Habit Tracker</h3>
+                        <p>It visually tracks whether you've completed your daily goals (like drinking water, coding, exercising) and helps you stay motivated.</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                       </div>
+                </div>
+            </div>
+         </div>
+      </div>
+
+    <!--Skills-->
+    
+    <div id="skills">
+  <div class="container">
+    <h1 class="sub-title">My Skills</h1>
+    <div class="skills-wrapper">
+      <div class="skill-block">
+        <img src="assets/skills-block.jpg" alt="Skills Image">
+        <div class="layer">
+          <h3>Technical Skills</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <img src="assets/htmls.png" alt="HTML">
+              <p>HTML</p>
+            </div>
+            <div class="skill-item">
+              <img src="assets/css.jpg" alt="CSS">
+              <p>CSS</p>
+            </div>
+            <div class="skill-item">
+              <img src="assets/js.jpg" alt="JavaScript">
+              <p>JavaScript</p>
+            </div>
+            <div class="skill-item">
+              <img src="assets/java.png" alt="Java">
+              <p>Java</p>
+            </div>
+            <div class="skill-item">
+              <img src="assets/jdbc.png" alt="JDBC">
+              <p>JDBC</p>
+            </div>
+            <div class="skill-item">
+              <img src="assets/jsp.jpg" alt="Hibernate">
+              <p>Servlet & JSP</p>
+            </div>
+            <div class="skill-item">
+              <img src="assets/springboot.png" alt="Servlet">
+              <p>Spring Boot</p>
+            </div>
+            <div class="skill-item">
+              <img src="assets/mysql.png" alt="JSP">
+              <p>MySql</p>
+            </div>
+            <div class="skill-item">
+              <img src="assets/react.png" alt="JSP">
+              <p>React</p>
+            </div>
+            <div class="skill-item">
+              <img src="assets/bootstrap.png" alt="JSP">
+              <p>Bootstrap</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+  <div class="container">
+    <h1 class="sub-title">Contact Me</h1>
+    <div class="contact-content">
+      <form id="contact-form" class="contact-form" >
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+ 
+       <p id="responseMessage" style="margin-top: 10px; color: green;"></p>
+
+      <div class="contact-info">
+        <h3>Let's connect</h3>
+        <p><i class="fas fa-envelope"></i> bagalaishwarya2001@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +91 9226440721</p>
+        <p><i class="fas fa-map-marker-alt"></i> Pune, India</p>
+        <div class="social-icons">
+          <a href="https://github.com/Aishu0607"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/aishwaryabagal" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+
+         <a href="assets/Aish_resume.pdf" download="" class="btn btn2">Download CV</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
+<script>
+document.getElementById("contact-form").addEventListener("submit", async function (e) {
+  e.preventDefault();
+
+  const formData = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value
+  };
+
+  try {
+    const response = await fetch("https://formspree.io/f/mwpqllkd", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(formData)
+    });
+
+    if (response.ok) {
+      document.getElementById("responseMessage").innerText = "Message sent successfully!";
+      document.getElementById("contact-form").reset();
+    } else {
+      document.getElementById("responseMessage").innerText = "Failed to send message.";
+    }
+  } catch (error) {
+    document.getElementById("responseMessage").innerText = "An error occurred. Please try again.";
+  }
+});
+</script>
